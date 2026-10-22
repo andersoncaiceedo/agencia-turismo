@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #243447;
+    background-color: #f4f8f7;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #087f5b;
+    color: white;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background-color: #d8f3dc;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #087f5b;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.destinos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contenedor-destinos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 260px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+.tarjeta h3 {
+    color: #087f5b;
+    margin-bottom: 10px;
+}
+
+.nosotros {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e9f5f1;
+}
+
+.footer {
+    background-color: #173b35;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+}
